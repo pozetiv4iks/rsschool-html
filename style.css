@@ -1,0 +1,116 @@
+
+body{
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.right-block{
+    background-color: white;
+    width: 50%;
+    height: 1500px;
+    margin-left: 20px;
+}
+
+.left-block{
+    background-color: rgb(26, 25, 25);
+    width: 50%;
+    height: 1500px;
+}
+
+.name{
+    position: absolute;
+    color: white;
+    transform: rotate(270deg); 
+    float: left;
+    margin-top: 235px ;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-right: 70px;
+}
+
+.avatar{
+    position: relative;
+    height: 30%;
+    float: right;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: white;
+}
+
+.about{
+    margin-top: 500px;
+    padding-left: 15%;
+    font-size: xx-large;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding-top: 40px;
+    color: white;
+    text-align:left;
+    padding-right: 10%;
+}
+
+.icon{
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    background-color: white;
+    margin: 0;
+}
+
+.options{
+    font-size: 20px;
+    font-weight:lighter;
+    font-family:'Courier New', Courier, sans-serif;
+    list-style-position:outside;
+    color:rgb(26, 25, 25);
+    padding-right: 20px;
+    
+}
+
+#top{
+    margin-bottom: 25px;
+    line-height: 17px;
+    font-size: 45px;
+}
+
+span{
+    color: black;
+    font-size: 20px;
+}
+
+.line{
+    position: absolute;
+    padding-bottom: 28px;
+    margin-right: 30px;
+    width: 5px;
+    background:rgb(26, 25, 25);
+    margin-top:39px;
+    margin-left: 13px;
+}
+
+.info{
+    position: relative;
+    display: grid;
+}
+
+a{
+    text-decoration: none;
+    color:black
+}
+
+.point{
+    font-size:36px;
+    color: black; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
+span{
+    font-size: 20px;
+}
+
+.bio{
+    line-height: 17px;
+    font-size: 45px;
+}
